@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>O<span>UR MEN</span>U</h1>
+
+    <div class="menu">
+
+        <div class="menu-selector">
+            <button class="menu-btn active" data-filter="all">All</button>
+            <button class="menu-btn" data-filter="breakfast">Breakfast</button>
+            <button class="menu-btn" data-filter="lunch">Lunch</button>
+            <button class="menu-btn" data-filter="shake">Shakes</button>
+            <button class="menu-btn" data-filter="dinner">Dinner</button> 
+        </div>
+
+        <div class="menu-container">
+            <div class="card lunch dinner all">
+                <div class="img-container"><img src="./img/burger.jpeg"></div>
+                <div class="container">
+                    <h4 class="dish">Burger</h4>
+                    <p class="description">Melted cheese, meat from Vaca Rubia Gallega and hand-made bread.
+                        BBQ sauce, lettuce, tomato and roasted beacon also included!. Our speciality!</p>
+                </div>
+            </div>
+
+            <div class="card lunch all">
+                <div class="img-container"><img src="./img/filete-ternera.jpg" alt=""></div>
+                <div class="container">
+                    <h4 class="dish">Meat Steak</h4>
+                    <p class="description">It does not look like, but the dish is big and it has lots of
+                        french fries and meat for the children. The best for them!
+                    </p>
+                </div>
+            </div>
+
+            <div class="card shake breakfast all">
+                <div class="img-container"><img src="./img/batido-choco.jpg" alt=""></div>
+                <div class="container">
+                    <h4 class="dish">Chocolate Shake</h4>
+                    <p class="description">Chocolate, Oreo, ice cream and milk! The best combination possible
+                        for a good snack or breakfast. Come and try it! </p>
+                </div>
+            </div>
+
+            <div class="card breakfast all">
+                <div class="img-container"><img src="./img/tortitas.jpg" alt=""></div>
+                <div class="container">
+                    <h4 class="dish">Pancakes</h4>
+                    <p class="description">Our pancakes are the best of town! Do not hesitate to try them.
+                        We promise you will not regret it!
+                    </p>
+                </div>
+            </div>
+
+            <div class="card shake breakfast all">
+                <div class="img-container"><img src="./img/batido-fresa.jpg" alt=""></div>
+                <div class="container">
+                    <h4 class="dish">Strawberry Milk-Shake</h4>
+                    <p class="description">Lots of fruits, perfect for a good afternoon with your friends!
+                        Sweet and healthy, the best combination! </p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card breakfast all">
+                <div class="img-container"><img src="./img/pantumaca.jpg" alt=""></div>
+                <div class="container">
+                    <h4 class="dish">Pantumaca</h4>
+                    <p class="description">Typical not spanish tortilla but Spanish pantumaca. Very healthy and
+                        delicious. Everyone loves it! </p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card dinner all">
+                <div class="img-container"><img src="./img/salmorejo.jpeg" alt=""></div>
+                <div class="container">
+                    <h4 class="dish">Salmorejo</h4>
+                    <p class="description">Salmorejo, que mah quiereh tuh illo. Best dish for a light dinner
+                        with your spanish family. Do not forget about the ham!
+                    </p>
+                </div>
+            </div>
+
+            <div class="card dinner all">
+                <div class="img-container"><img src="./img/sandwich.jpg" alt=""></div>
+                <div class="container">
+                    <h4 class="dish">Sandwich Club</h4>
+                    <p class="description">Our sandwich club is ready to make your day better than it was.
+                        It has everything you need to be happy: chicken, bacon, lettuce, tomato, egg and
+                        mayonnaise. </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
